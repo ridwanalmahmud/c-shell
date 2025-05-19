@@ -21,7 +21,7 @@ int is_command(char *command) {
     return -1;
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     setbuf(stdout, NULL); // Flush after every printf
 
     while (true) {
