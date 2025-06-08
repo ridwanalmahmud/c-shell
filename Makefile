@@ -3,7 +3,7 @@ ICDIRS=-I
 OPT=-O1
 CFLAGS=-Wall -Wextra -g $(INCDIRS) $(OPT)
 
-CFILES=src/main.c
+CFILES=src/shell.c src/main.c
 BINARY=bin/shell
 
 all: $(BINARY)
