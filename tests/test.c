@@ -205,7 +205,7 @@ int main() {
     }
 
     printf("\n" YELLOW "=== TEST SUMMARY ===\n" RESET);
-    printf("Tests Run:   %d\n", tests_run);
+    printf("Tests Run:    %d\n", tests_run);
     printf(GREEN "Tests Passed: %d\n" RESET, tests_passed);
     printf(RED "Tests Failed: %d\n" RESET, tests_failed);
 
