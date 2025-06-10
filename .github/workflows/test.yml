@@ -37,7 +37,7 @@ jobs:
       run: |
         # Capture colored output correctly
         echo "::add-matcher::.github/test-matcher.json"
-        make test | tee test-output.log
+        stdbuf -oL make test | tee test.log
         echo "::remove-matcher owner=test-matcher::"
 
         # Fail if any tests failed
